@@ -29,7 +29,9 @@ namespace ByteBank
             roberta.Salario = 5000;
 
             Console.WriteLine(roberta.Nome);
-            Console.WriteLine(roberta.GetObterBonificacao());
+            Console.WriteLine(roberta.GetBonificacao());
+
+            Console.WriteLine("Bonificação de uma referência de Diretor: " + roberta .GetBonificacao());
 
             gerenciador.Registrar(roberta);
 
