@@ -13,6 +13,13 @@ namespace ByteBank.Funcionarios
 
         }
 
+        public string Senha { get; set; }
+
+        public bool Autenticar(string senha)
+        {
+            return this.Senha == senha;
+        }
+
         public override void AumentarSalario()
         {
             Salario *= 1.5;
