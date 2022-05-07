@@ -16,7 +16,7 @@ namespace ByteBank
 
         public static void CalcularBonificacao()
         {
-            GerencioadorBonificacao gerenciador = new GerencioadorBonificacao();
+            GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
                 Designer pedro = new Designer("833.222.048-39");
                 pedro.Nome = "Pedro";
