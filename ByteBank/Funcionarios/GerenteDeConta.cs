@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ByteBank.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,19 +7,14 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    public class GerenteDeConta : Funcionario
+    public class GerenteDeConta : Autenticavel
     {
         public GerenteDeConta(string cpf) : base(4000,cpf)
         {
 
         }
 
-        public string Senha { get; set; }
-
-        public bool Autenticar(string senha)
-        {
-            return this.Senha == senha;
-        }
+        public int MyProperty { get; set; } 
 
         public override void AumentarSalario()
         {
