@@ -15,8 +15,6 @@ namespace ByteBank.Funcionarios
 
         public Funcionario(double salario,string cpf)
         {
-            Console.WriteLine("Criando FUNCIONARIO! ");
-
             Salario = salario; 
             Cpf = cpf;
 
