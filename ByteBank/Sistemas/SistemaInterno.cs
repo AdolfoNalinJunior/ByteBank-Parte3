@@ -23,7 +23,6 @@ namespace ByteBank.Sistemas
                 Console.WriteLine("Senha incorreta!! ");
                 return false;
             }
-
         }
     }
 }
